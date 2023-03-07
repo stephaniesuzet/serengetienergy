@@ -2,13 +2,20 @@
 <html>
     <head>
         <title>Serengeti Intranet</title>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.1.2/css/star-rating.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.1.2/js/star-rating.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <!-- carousel -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
     </head>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.1.2/css/star-rating.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.1.2/js/star-rating.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+ 
 
     <link rel="stylesheet" href="style.css">
     <body>
@@ -29,10 +36,159 @@
                 <div class="tab-content">
                     <div id="hometab" class="tab-pane  active show">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-7">
+                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item comp-img active">
+                                            <img src="images/Kenya staff.jpeg" alt="...">
+                                            <div class="carousel-caption d-none d-md-block">
+                                              <p>Developing, constructing and operating renewable energy projects in sub-Saharan Africa.</p>
+                                            </div>
+                                          </div>
+                                      <div class="carousel-item comp-img">
+                                        <img src="images/Baoma-2.jpeg" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <p>Developing, constructing and operating renewable energy projects in sub-Saharan Africa.</p>
+                                        </div>
+                                      </div>
+                                      <div class="carousel-item comp-img">
+                                        <img src="images/Rwaza-Rwanda.jpeg" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                          <p>Developing, constructing and operating renewable energy projects in sub-Saharan Africa.</p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Next</span>
+                                    </a>
+                                  </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="container news-widget">
+                                    <img src="images/Baoma-2.jpeg" alt="Nature">
+                                    <div class="text-block">
+                                      <h4>NEWS</h4>
+                                    </div>
+                                </div>  
+                                <div class="projects-slider">
+                                    <div class="owl-carousel owl-theme">
+                                        <div class="blog_item">
+                                            <div class="content"> 
+                                                <a href="#">
+                                                    <div class="content-overlay"></div> <img class="content-image" src="images/Baoma-2.jpeg">
+                                                    <div class="content-details fadeIn-bottom">
+                                                        <h3 class="content-title">Geysers Valley Hotel</h3>
+                                                    </div>
+                                                </a> 
+                                            </div>
+                                        </div>                        
+                                        <div class="blog_item">
+                                            <div class="content"> 
+                                                <a href="#">
+                                                    <div class="content-overlay"></div> <img class="content-image" src="images/Rwaza-Rwanda.jpeg">
+                                                    <div class="content-details fadeIn-bottom">
+                                                        <h3 class="content-title">Geysers Valley Hotel</h3>
+                                                    </div>
+                                                </a> 
+                                            </div>
+                                        </div>                        
+                                        <div class="blog_item">
+                                            <div class="content"> 
+                                                <a href="#">
+                                                    <div class="content-overlay"></div> <img class="content-image" src="images/Sol-Plaatje-SA.jpeg">
+                                                    <div class="content-details fadeIn-bottom">
+                                                        <h3 class="content-title">Geysers Valley Hotel</h3>
+                                                    </div>
+                                                </a> 
+                                            </div>
+                                        </div>
+                                        <div class="blog_item">
+                                            <div class="content"> 
+                                                <a href="#">
+                                                    <div class="content-overlay"></div> <img class="content-image" src="images/Business Etiquette.jpg">
+                                                    <div class="content-details fadeIn-bottom">
+                                                        <h3 class="content-title">Geysers Valley Hotel</h3>
+                                                    </div>
+                                                </a> 
+                                            </div>
+                                        </div>
+                                        <div class="blog_item">
+                                            <div class="content"> 
+                                                <a href="#">
+                                                    <div class="content-overlay"></div> <img class="content-image" src="images/Kenya staff.jpeg">
+                                                    <div class="content-details fadeIn-bottom">
+                                                        <h3 class="content-title">Geysers Valley Hotel</h3>
+                                                    </div>
+                                                </a> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="eventbox">
+                                    <div class="eventbox-title">
+                                        <div class="eventbox-icon">
+                                            <span class="fa fa-2x fa-calendar"></span>
+                                        </div>
+                                        <h4>Events</h4>
+                                    </div>
+                                    <section>
+                                        <div class="row row-striped">
+                                            <div class="col-2 text-right">
+                                                <h4 class="display-4"><span class="badge badge-secondary">23<h4>FEB</h4></span></h4>
+                                            </div>
+                                            <div class="col-10 calendar-info">
+                                                <p>Lorem ipsum dolsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row row-striped">
+                                            <div class="col-2 text-right">
+                                                <h4 class="display-4"><span class="badge badge-secondary">23 <h4>FEB</h4> </span></h4>
+                                                
+                                            </div>
+                                            <div class="col-10 calendar-info">
+                                                <p>Lorem ipsum dolsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row row-striped">
+                                            <div class="col-2 text-right">
+                                                <h4 class="display-4"><span class="badge badge-secondary">23 <h4>FEB</h4></span></h4>
+                                            </div>
+                                            <div class="col-10 calendar-info">
+                                                <p>Lorem ipsum dolsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row row-striped">
+                                            <div class="col-2 text-right">
+                                                <h4 class="display-4"><span class="badge badge-secondary">23 <h4>FEB</h4></span></h4>
+                                            </div>
+                                            <div class="col-10 calendar-info">
+                                                <p>Lorem ipsum dolsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
 
                             </div>
-                            <div class="col-md-6">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+
+                            </div>
+                            <div class="col-md-4">
+                                
+                            </div>
+                            <div class="col-md-4">
                                 
                             </div>
                         </div>
