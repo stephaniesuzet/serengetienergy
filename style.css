@@ -39,9 +39,10 @@
 
 /* Departments */
 .dep-header{
-    background-image: url("/images/tujereng-hybrid-project.jpeg");
+    background-image: url("images/tujereng-hybrid-project.jpeg");
     height: 5rem;
     background-position: center;
+    
 }
 .dep-title{
     text-align: center;
@@ -161,7 +162,7 @@
 
 /* Marketing Section  */
 .header-title{
-    background-image: url("/images/the-ultimate-guide-to-digital-marketing-61726311bf393-sej.png");
+    background-image: url("images/the-ultimate-guide-to-digital-marketing-61726311bf393-sej.png");
     height: 5rem;
     background-position: center;
 }
@@ -247,7 +248,7 @@
 
 /* Training Tab */
 .marketing-title{
-    background-image: url("/images/hr_hero-training.jpg");
+    background-image: url("images/hr_hero-training.jpg");
     height: 5rem;
     background-position: center;
 }
