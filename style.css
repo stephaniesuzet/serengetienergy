@@ -7,7 +7,6 @@ p, h1, h2, h3, h4, h5, label, ul, li{
 }
 #side-menu{
     background-color: #1E4554;
-    height: 960px;
     width: 14rem;
     padding-right: 0;
     padding-left: 0;
@@ -16,11 +15,9 @@ p, h1, h2, h3, h4, h5, label, ul, li{
     width: 65%;
   
 }
-#v-pills-tab{
- width: 13rem;
-}
+
 #v-pills-tab > a > span{
-    padding-right: 1rem;
+    padding-right: 5px;
 }
    
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
@@ -34,6 +31,8 @@ p, h1, h2, h3, h4, h5, label, ul, li{
 }
 .nav-link{
     color: #ffffff;
+    font-size: 10px;
+    padding: 3.5px 7px;
 }
 /* Tab Content */
 #main-content {
