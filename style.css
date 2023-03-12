@@ -5,6 +5,9 @@ body{
 p, h1, h2, h3, h4, h5, label, ul, li{
     font-family: 'Montserrat';
 }
+.tab-content{
+    margin-bottom: 15px;
+}
 #side-menu{
     background-color: #1E4554;
     width: 14rem;
@@ -391,6 +394,7 @@ p, h1, h2, h3, h4, h5, label, ul, li{
 }
 .ceo-card > .card-body > p{
     font-size: 12px;
+    text-align: center;
 }
 .askbtn{
     padding: 3px 45px;
@@ -420,7 +424,71 @@ p, h1, h2, h3, h4, h5, label, ul, li{
     font-size: 11px;
     text-align: initial;
 }
-
+.social-card{
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    text-align: right;
+    display: block;
+    margin-left: 0px;
+    padding-bottom: 2rem;
+}
+.socialbox-title{
+    padding-bottom: 1rem;
+    display: table-cell;
+}
+ .socialbox-icon {
+    background-color: #F39E1D;
+    border-radius: 5px;
+    display: table;
+    height: 30px;
+    margin: 0 auto;
+    width: 30px;
+    float: left;
+}
+.socialbox-icon span {
+    color: #fff;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.socialbox-title h5 {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    float: left;
+    margin-left: 15px;
+    margin-top: 12px;
+    color: #1E4554;
+}
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-flex;
+    float: left;
+}
+.profile-inline img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+}
+.profile-inline > div > .card-title {
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 5px !important;
+}
+.profile-inline > div > h5 {
+    font-size: 7px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: initial;
+}
+.card-block > .card-text{
+    font-size: 10px;
+    text-align: initial;
+    margin: 5px;
+}
 .award-card{
     border: none;
     margin-top: 15px;
@@ -443,6 +511,7 @@ p, h1, h2, h3, h4, h5, label, ul, li{
 
 .award-title{
     display: inline-flex;
+    margin-left: 0rem;
 }
 .award-title > h5{
     font-weight: 700;
@@ -450,6 +519,7 @@ p, h1, h2, h3, h4, h5, label, ul, li{
     margin-left: 12px;
     margin-right: 12px;
 }
+
 /* Departments */
 .dep-header{
     background-image: url("images/tujereng-hybrid-project.jpeg");
